@@ -75,7 +75,9 @@ A crucial part in defending against APT's is understanging the adversary.
 - Patterns & behaviour
 - Tactics, Techniques & Procedure
 - Intent
-  > Learning the objective of the adversary, this can be achieved for example, by closely examining any exfiltrated data.
+  > Learn the objective of the adversary.
+  >
+  > This can be achieved for example, by closely examining any exfiltrated data.
 
 ### Strategy
 - Analyzing multiple intrusion kill chains over time, will identify commonalities and overlapping indicators.
@@ -83,7 +85,6 @@ A crucial part in defending against APT's is understanging the adversary.
 
 >**Insights**
 >
-> - Building a strong, informed and consistent strategy is crucial for defending APT's.
+> - Building a holistic, informed and consistent strategy is crucial for defending APT's.
 >
->The use of key indicators plays a central role in developing strategy, as it allows defenders to use the persistence against its adversaries, and makes the defenders more resilient.
->
+> - With the use of key indicators, understanding adversary objectives and knowledge of technologies & infrastructure, one has the building blocks to build a resiliant strategy against APT's.
