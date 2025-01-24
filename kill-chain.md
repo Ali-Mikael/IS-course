@@ -1,15 +1,18 @@
 # Intelligence-driven Computer Network Defence
-The Lockheed Martin Corporation backed paper on cyber kill chain, is an intriguing piece of paper, that provides a fundamental framework for APT (Advanced Persistent Threat) and mitigation. 
+>
+The Lockheed Martin Corporation backed paper "Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains", is an intriguing piece of paper, that provides a comprehensive framework for APT (Advanced Persistent Threat) and mitigation.
+>
 
 ## Down below i'm going to dissect what i read, using summarizations and bullet points, and also provide some of my own insight
 Let's dive right in!
 
+
 ### What is an APT?
-APT (Advanced Persistent Threat) = " A systematic process to target and engage an adversary to create desired effects"
+- APT (Advanced Persistent Threat) = " A systematic process to target and engage an adversary to create desired effects"
 ### By whom? 
-Well resourced & trained adversaries (threat-actors), that conduct multi-year intrusion campaigns.
+- Well resourced & trained adversaries (threat-actors), that conduct multi-year intrusion campaigns.
 ### The "Kill chain"
-The US military doctrine of kill chain = find, fix, track, target, engage & asses.
+- The US military doctrine of kill chain = find, fix, track, target, engage & asses.
 
 **The presented cybsec kill chain model, specifically for intrusions:**
 - *Reconnaisance*
@@ -35,15 +38,15 @@ The US military doctrine of kill chain = find, fix, track, target, engage & asse
 
 
 ### Conventional CND (Computer Network Defence)
-Has focused on tehcnologies reducing the risk of automated worms & viruses.
+- Conventional methods have focused on tehcnologies reducing the risk of threats, such as automated worms & viruses.
 - The old model makes 2 flawed assumptions: Response should happen after compromise, and said compromise being the result of a fixable flaw.
-- This simply doesn't cut it in defending APT's, as they are calculated, manually operated, focused intrusions, that are executed with patience and drive.
+- This simply doesn't cut it in defending against APT's, as they are calculated, manually operated, focused intrusions, that are executed with patience and tenacity.
 
 
-### APT kill chain analysis
+### The "Intelligence", in intelligence-driven CND
 - The fundamental intelligence in this model, is the *indicator*.
 - An indicator in this context: A *fundamental element* of the kill chain model.
-- Definiton - **Any piece of information that objectively describes an intrusion**.
+- Definiton - **Any piece of information that *objectively* describes an intrusion**.
 
 **There are 3 types of indicators:**
 - *Atomic* - Cannot be broken down into smaller parts without losing their meaning in the context of intrusion.
@@ -53,7 +56,7 @@ Has focused on tehcnologies reducing the risk of automated worms & viruses.
 
 >**Insights**
 >
-> - The indicators give concrete examples, on how intelligence is used in this intelligence-driven CND model.
+> - The objectifing of intrusion tactics and processes is really a really neat way of in understanding the abstract model.
 > - With the use of indicators, one can more easily compare past intrusion attempts side by side, in an attempt to prepare for the future.
 
 
