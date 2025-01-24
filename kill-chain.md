@@ -5,13 +5,13 @@ The Lockheed Martin Corporation backed paper on cyber kill chain, is an intrigui
 Let's dive right in!
 
 ### What is an APT?
-APT = " A systematic process to target and engage an adversary to create desired effects"
+APT (Advanced Persistent Threat) = " A systematic process to target and engage an adversary to create desired effects"
 ### By whom? 
 Well resourced & trained adversaries (threat-actors), that conduct multi-year intrusion campaigns.
 ### The "Kill chain"
 The US military doctrine of kill chain = find, fix, track, target, engage & asses.
 
-**The new cybsec kill chain model, specifically for intrusions, presented in the paper:**
+**The presented cybsec kill chain model, specifically for intrusions:**
 - *Reconnaisance*
 
 - *Weaponization*
@@ -28,9 +28,8 @@ The US military doctrine of kill chain = find, fix, track, target, engage & asse
 
 >**Insighs:**
 >
-> - This gives a rather clear & linear framework on the adversary kill chain.
-> - The model is excellent for it's simplicity, and readability, and gives you tools in mapping the actions and phases of an adversary.
-> - Furthermore, it helps you in analyzing the actions more thoroughly, which in turn gives you an advantage going into future intrusion attempts.
+> - The proposed framework gives a rather clear & linear insight on the phases of an APT. It's excellent for it's simplicity and readability.
+> - The framwork gives you tools, in mapping the actions and phases of an threat-actor, to help you better undestand them, in order to mitigate them.
 > - In my opinion this should be used in conjunction with other frameworks rather than as a standalone.
 > - Like the writer stated, "Responses to APT intrusions require evolution of analysis, process and technology", so should this framework also evolve.
 
@@ -42,11 +41,9 @@ Has focused on tehcnologies reducing the risk of automated worms & viruses.
 
 
 ### APT kill chain analysis
-The fundamental intelligence in this model, are the *indicators*.
-
-An indicator in this context: A *fundamental element* of the kill chain model.
-
-Definiton - **Any piece of information that objectively describes an intrusion**.
+- The fundamental intelligence in this model, is the *indicator*.
+- An indicator in this context: A *fundamental element* of the kill chain model.
+- Definiton - **Any piece of information that objectively describes an intrusion**.
 
 **There are 3 types of indicators:**
 - *Atomic* - Cannot be broken down into smaller parts without losing their meaning in the context of intrusion.
@@ -57,21 +54,19 @@ Definiton - **Any piece of information that objectively describes an intrusion**
 >**Insights**
 >
 > - The indicators give concrete examples, on how intelligence is used in this intelligence-driven CND model.
-> - With the use of indicators, one can gather crucial insight into intrusion methods and tactics, compare them together, to build a strond defence against future intrustion attempts.
+> - With the use of indicators, one can more easily compare past intrusion attempts side by side, in an attempt to prepare for the future.
 
 
 ### Defending APT's
  > In order for defenders to use the persistence of adversarys against them, one must completely understand an intrusion, and use intelligence on the used tools and infrastructure.
 
 **Synthesis:**
-- Synthesis of unsuccesful intrusions is equally as important as thorough analysis of succesful compromise.
-
+- Synthesis of unsuccesful intrusions, is equally as important as thorough analysis of succesful compromise.
 - Defenders must collect as much data as possible from a mitigated intrusion attempt, in order to reconstruct what could've actualised in a later phase. This could lead to
   the discovery of new exploits or backdoors for example.
-
 - The knowledge of what could've happened, helps to defend future intrusions, should they go past the current mitigation & detection.
 
-A crucial part in defending against APT's is understanging the adversary.
+**A crucial part in defending against APT's is understanging the adversary.**
 - Patterns & behaviour
 - Tactics, Techniques & Procedure
 - Intent
@@ -82,9 +77,17 @@ A crucial part in defending against APT's is understanging the adversary.
 ### Strategy
 - Analyzing multiple intrusion kill chains over time, will identify commonalities and overlapping indicators.
 - Intrusion campaigns might have varying degrees of similarities, but with thorough analysis, it is possible to illustrate key indicators.
+- Key indicators will be an immense asset, in building a stronger & more resiliant defence strategy.
 
->**Insights**
+>**Finishing insights**
 >
-> - Building a holistic, informed and consistent strategy is crucial for defending APT's.
->
-> - With the use of key indicators, understanding adversary objectives and knowledge of technologies & infrastructure, one has the building blocks to build a resiliant strategy against APT's.
+> - Building a holistic, analytic and resiliant strategy is crucial, for defending against APT's.
+> - One should approach the APT's from an analytical, open-minded and dynamic perspective, in order to be effective in mitigation efforts.
+> - The intelligence-driven CND model gives a comprehensive basis, for any given framework against threat actors.
+> - "Know thy enemy"
+
+
+
+
+**Source**
+> https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
