@@ -56,8 +56,8 @@ Let's dive right in!
 
 >**Insights**
 >
-> - The objectifing of intrusion tactics and processes is really a really neat way of in understanding the abstract model.
-> - With the use of indicators, one can more easily compare past intrusion attempts side by side, in an attempt to prepare for the future.
+> - The objectifing of intrusion tactics and processes, is a really neat way of better understanding the abstract model.
+> - With the use of indicators, one can more easily compare past intrusion attempts side by side.
 
 
 ### Defending APT's
@@ -73,9 +73,8 @@ Let's dive right in!
 - Patterns & behaviour
 - Tactics, Techniques & Procedure
 - Intent
-  > Learn the objective of the adversary.
-  >
-  > This can be achieved for example, by closely examining any exfiltrated data.
+  > - Learn the objective of the adversary.
+  > - This can be achieved for example, by closely examining any exfiltrated data.
 
 ### Strategy
 - Analyzing multiple intrusion kill chains over time, will identify commonalities and overlapping indicators.
@@ -84,9 +83,9 @@ Let's dive right in!
 
 >**Finishing insights**
 >
-> - Building a holistic, analytic and resiliant strategy is crucial, for defending against APT's.
-> - One should approach the APT's from an analytical, open-minded and dynamic perspective, in order to be effective in mitigation efforts.
-> - The intelligence-driven CND model gives a comprehensive basis, for any given framework against threat actors.
+> - I understood that building a **holistic**, **analytic** and **resiliant** strategy is crucial, for defending against APT's. Also the fact, that the game of cyberattacks have evolved from 2D to 4D chess over time.
+> - One should approach the APT's and adversarys from an analytical, open-minded and dynamic perspective, in order to be effective in mitigation efforts.
+> - The intelligence-driven CND model gives a fundamental/comprehensive look into the world of cyberSecurity, for anyone interested. 
 > - "Know thy enemy"
 
 
