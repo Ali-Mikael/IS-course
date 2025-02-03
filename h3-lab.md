@@ -19,8 +19,11 @@ I port scanned my host computer.
 - Network distance
 
 **Scanning localhost**
+
 -Gave me the same type of information.
+
 -After I activated the ssh server (which was already installed). 
+
 -This time it gave the information on that specific port and the ssh keys.
 
 
