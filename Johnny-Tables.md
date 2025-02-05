@@ -82,3 +82,17 @@ Prevent against injections by cleaning up and checking user input, and adding qu
 
 
 
+#WebGoat
+
+I downloaded WebGoat on my vm, from github. 
+I
+
+
+
+
+SQLzoo
+
+
+
+
+
