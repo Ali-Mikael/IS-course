@@ -3,20 +3,20 @@
 ### A01:21 Broken Access Control
 > Access control is in place, to limit authorized/unauthorized users/applications actions.
 >
-> dFailure in access control can lead to, among other things, corruption/loss/unauthorized-access on data and bussines disruption.
+> Failure in access control can lead to, among other things, corruption/loss/unauthorized-access on data and bussines disruption.
 
 **Common AC Vulnerabilites:**
 - Violation of the principle of least privilege.
-- Modyfying URL/HMTL-page/application-state to bypass AC checks.
-- Poorly/un configured AC on API:s, allowing unauthorized POST,PUT&DELETE actions.
+- Modyfying URL,HTML-page and application state to bypass AC checks.
+- Poorly or un-configured AC on API:s, allowing unauthorized POST,PUT&DELETE actions.
 - Privilege elevation.
 - Manipulation of metadata.
-- Poorly configured CORS, allowing wrongful actions through API's. 
+- Poorly configured CORS, allowing wrongfull actions through API's. 
 
 **Prevention**
 - Most of the time: deny by default.
 - Implement AC mechanisms once, and reuse throughout.
-- AC failure logging (alerts in place).
+- AC failure logs (put alerts in place).
 
 >*Question*
 >
