@@ -1,4 +1,4 @@
-# Owasp 10
+# Owasp 10 (X)
 
 ### A01:21 Broken Access Control
 > Access control is in place, to limit authorized/unauthorized users/applications actions.
@@ -82,15 +82,60 @@ Prevent against injections by cleaning up and checking user input, and adding qu
 
 
 
-#WebGoat
+# WebGoat (A-B)
 
-I downloaded WebGoat on my vm, from github. 
-I
+Latest version of webgoat can be found on github. 
+![Screenshot 2025-02-06 at 17 20 06](https://github.com/user-attachments/assets/19c9e4f2-e2d5-4eb3-8b4d-8956450a34c1)
+
+Confirm:
+<img width="489" alt="Screenshot 2025-02-06 at 17 23 42" src="https://github.com/user-attachments/assets/45bf35e2-efe9-4c1e-900a-0083034235ef" />
+
+I then started the program in the terminal.
+<img width="472" alt="Screenshot 2025-02-06 at 17 25 32" src="https://github.com/user-attachments/assets/06cc829b-03e2-4e58-801a-4db619b68773" />
+
+It initiated the program, and gave me the target to paste into a browser.
+<img width="1023" alt="Screenshot 2025-02-06 at 17 25 57" src="https://github.com/user-attachments/assets/281897b2-95c8-4313-983c-472d9e15d0c6" />
 
 
+The game was on.
+<img width="1119" alt="Screenshot 2025-02-06 at 17 26 42" src="https://github.com/user-attachments/assets/d19977c2-8904-4f00-be5e-141ad25e6444" />
 
 
-SQLzoo
+The General --> Developer tools gave me a small introduction into HTML pages in the browser and javascript etc. 
+<img width="1115" alt="Screenshot 2025-02-06 at 17 29 56" src="https://github.com/user-attachments/assets/4767dc52-917e-4b52-b504-400a61531f59" />
+
+Next, it was time to open up the console and do a little test run, by running a javascript console log:
+<img width="1122" alt="Screenshot 2025-02-06 at 17 35 33" src="https://github.com/user-attachments/assets/12d35124-9bad-465b-bdf9-8bd0afc7c742" />
+
+Next was time for the first actual task. 
+The idea was to start a javascript program by making a function call in the console.
+I succesfully ran the function, got a number, pasted it in the box, and got my first task succesfully completed:
+<img width="1123" alt="Screenshot 2025-02-06 at 17 42 07" src="https://github.com/user-attachments/assets/710aab2a-e612-4b0e-b3be-a69fc8c63cd4" />
+
+
+Nextup there was some briefing again, talking about the devtools and how you can view different material. 
+
+The next task was to generate HTTP traffic, locate the request, and copy the number in the data.
+This was also a huge success!
+<img width="1119" alt="Screenshot 2025-02-06 at 17 53 17" src="https://github.com/user-attachments/assets/cdcf615f-06d0-4be0-a4de-d6532c8870f1" />
+
+
+*Final thoughts*
+>WebGoat seems absolutely legit.
+>
+>I'm definitively going to use it in the future.
+>
+>I had some time to browse through the site, and it seems like you should have same prior knowledge & experience before cracking on with the game.
+>As they don't explain what you are doing, only why and how. It would be good to know the tecniques at hand!
+
+
+ # c) I am already runnin the newest version.
+- sudo apt update && sudo apt upgrade -y. Will do the trick
+
+# SQLZOO (D)
+### Part 1
+Pretty easy, pretty nice. Some basic SQL syntax.
+<img width="367" alt="sqlzoo" src="https://github.com/user-attachments/assets/3f2eebd2-8b00-4a88-9026-0d6ca1fa82fb" />
 
 
 
