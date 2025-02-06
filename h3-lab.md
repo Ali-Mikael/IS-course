@@ -1,4 +1,4 @@
-# Linux
+# Linux (x)
 
 Installing linux. 
 - Download to ISO file. Configure a virtual hard disk (as well as other system settings).
@@ -8,9 +8,27 @@ Installing linux.
 - Pretty straighforward!
 
 
+## Can't fish (a)
+Before and after disconnecting from the internet.
+<img width="805" alt="Screenshot 2025-02-06 at 13 05 27" src="https://github.com/user-attachments/assets/803c55b5-472c-4237-8af7-3e90b3ff88c6" />
 
-## Port scanning.
-I port scanned my host computer.
+A succesfull ping command reply shows that we are infact connected to the internet. 
+Not getting a successfull ping commmand reply could mean either of three things:
+1. we have a connection problem
+2. the end device we're trying to connect to has connection problems.
+3. Or that there are problems somewhere inbetween
+
+Well, this time it's pretty simple to know the cause, as we ourself disabled the network, and this was just a quick way to confirm that it worked. 
+
+
+
+
+## Port scanning. 
+I port scanned my host computer. (While being disconnected from the internet)
+
+
+
+
 > **This is what i found out:_**
 - 998 tcp ports were close.
 - The MAC address (also which manufacturer).
