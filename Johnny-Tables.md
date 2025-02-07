@@ -101,13 +101,13 @@ The game was on.
 <img width="1119" alt="Screenshot 2025-02-06 at 17 26 42" src="https://github.com/user-attachments/assets/d19977c2-8904-4f00-be5e-141ad25e6444" />
 
 
-The General --> Developer tools gave me a small introduction into HTML pages in the browser and javascript etc. 
+The General --> Developer tools, gave me a small introduction to HTML pages and javascript execution etc. 
 <img width="1115" alt="Screenshot 2025-02-06 at 17 29 56" src="https://github.com/user-attachments/assets/4767dc52-917e-4b52-b504-400a61531f59" />
 
 Next, it was time to open up the console and do a little test run, by running a javascript console log:
 <img width="1122" alt="Screenshot 2025-02-06 at 17 35 33" src="https://github.com/user-attachments/assets/12d35124-9bad-465b-bdf9-8bd0afc7c742" />
 
-Next was time for the first actual task. 
+Now was time for the first actual task. 
 The idea was to start a javascript program by making a function call in the console.
 I succesfully ran the function, got a number, pasted it in the box, and got my first task succesfully completed:
 <img width="1123" alt="Screenshot 2025-02-06 at 17 42 07" src="https://github.com/user-attachments/assets/710aab2a-e612-4b0e-b3be-a69fc8c63cd4" />
@@ -115,7 +115,7 @@ I succesfully ran the function, got a number, pasted it in the box, and got my f
 
 Nextup there was some briefing again, talking about the devtools and how you can view different material. 
 
-The next task was to generate HTTP traffic, locate the request, and copy the number in the data.
+The next completable task was to generate HTTP traffic, locate the request, and copy the number in the data.
 This was also a huge success!
 <img width="1119" alt="Screenshot 2025-02-06 at 17 53 17" src="https://github.com/user-attachments/assets/cdcf615f-06d0-4be0-a4de-d6532c8870f1" />
 
@@ -131,27 +131,36 @@ This was also a huge success!
 
 
 
- # c) I am already runnin the newest version.
-- sudo apt update && sudo apt upgrade -y. Will do the trick
+ # System update (C) 
+- sudo apt update && sudo apt upgrade -y. Will do the trick!
+- Nothing special here.
+
 
 
   
 
 # SQLZOO (D)
-### Starting off light
+### Part 1
+>
+> Starting off light
+>
+
 Pretty easy, pretty nice. Some basic SQL syntax.
 <img width="367" alt="sqlzoo" src="https://github.com/user-attachments/assets/3f2eebd2-8b00-4a88-9026-0d6ca1fa82fb" />
 
 ![Screenshot 2025-02-06 at 18 17 19](https://github.com/user-attachments/assets/43db5e80-8e60-4f14-b9c3-3c31d20a979d)
 
 
-### Diving deeper
+### Part 2
+>
+>Diving deeper
+>
 
-After the initial familiarization, it was time to start combing through the material. The first task was to pick countries with a population over 2million and display the names.
+After the initial familiarization, it was time to start combing through the database table. The first task was to pick countries with a population above 2 million, and display the names.
 ![Screenshot 2025-02-06 at 18 14 48](https://github.com/user-attachments/assets/9186fb35-ee78-4a8c-a3e0-12652a036c46)
 
 
-Next was a bit more technical query. One had to select the same same condition, but this time divide the gpd with the population and show the results. 
+This one was a bit more of a technical query. One had to select the same same condition as last, but this time divide the gpd with the population and show the results. 
 Here we go:
 ![Screenshot 2025-02-06 at 18 19 26](https://github.com/user-attachments/assets/7266a2cc-8eab-4874-b0f8-e24dc8085739)
 
@@ -160,14 +169,14 @@ Here we go:
 >
 > The SQL and databases seems intuitive/easy enough to learn the basics off, which i'm definitively going to do. It is a good knowledge to have.
 >
-> Besides, you can't really dive deeper into the security aspect, if you don't know how databases function. They play a crucial role in our interconnected world.
+> Besides, you can't really dive deeper into the IT-security-realm, if you don't know how databases function (atleast on a basic level). They play a crucial role in our interconnected world.
 
 
 
 
 # PortSwigger (E)
 I made an account into PortSwigger and selected the SQL Injection course/module as my first learn in this environment. 
-After going through the basics, I was navigated to my first lab on this site. 
+After going through the basics, I was navigated to continue on to my first lab. 
 
 ![Screenshot 2025-02-07 at 11 15 56](https://github.com/user-attachments/assets/9dfa2dbc-5565-4bce-b49e-63066775b8e0)
 
@@ -180,9 +189,9 @@ I simply pressed on category: gifts. It gave me the following URL
 ![Screenshot 2025-02-07 at 11 25 11](https://github.com/user-attachments/assets/fb59a98f-a673-4053-b333-aa131ff356ea)
 
 
-By first typing a simple ', i got en error message of: internal server error. 
+By first typing a simple ', i got en error message of: internal server error (forgot to take screenshot, sorry tero don't remove me from the course). 
 This indicated that the site was vulnerable to SQLinjection, and that I could modify the url to perform my own query.
-
+Which is exactly what i did
 
 ![Screenshot 2025-02-07 at 11 25 36](https://github.com/user-attachments/assets/733a1109-3ca2-4219-b824-ae4289e6cc30)
 
@@ -203,8 +212,8 @@ The rest of the query is then commented out with the "--".
 > I especially enjoyed the hands on learning style. You go through some theory, and then get to put the theory into practice.
 >
 > **About the topic:**
-> - SQL injections are very intriguing. How we can perform our own queries and manipulate the database, just by understanding the underlying mechanics.
-> - Also gave me an insight, into how crucial it is not to let unmodified raw user data, interact with the database, and other underlying components for that matter.
+> - SQL injections are very intriguing. How one can perform own queries and manipulate the database, just by understanding the underlying concepts.
+> - Also gave me an insight into how crucial it is, not to let raw user data interact with the database. Or any other underlying components for that matter.
 
 
 ![Screenshot 2025-02-05 at 21 12 02](https://github.com/user-attachments/assets/ce0f3dfb-a318-48b8-8544-9a5e1adae0bb)
