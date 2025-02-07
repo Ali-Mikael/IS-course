@@ -63,8 +63,8 @@ Take the previous section, turn it into the positive counterparts, and voila'
 
 *Thoughts*
 >
->This is something that should be kept under tight reign.
->If you're using outdated, vulnerable & unsupported components and software, you will render most security mechanisms useless...
+> This is something that should be kept under tight reign.
+> If you're using outdated, vulnerable & unsupported components and software, you will render most security mechanisms useless...
 
 
 
@@ -121,23 +121,95 @@ This was also a huge success!
 
 
 *Final thoughts*
->WebGoat seems absolutely legit.
+> WebGoat seems absolutely legit.
 >
->I'm definitively going to use it in the future.
+> I'm definitively going to use it in the future.
 >
->I had some time to browse through the site, and it seems like you should have same prior knowledge & experience before cracking on with the game.
->As they don't explain what you are doing, only why and how. It would be good to know the tecniques at hand!
+> I had some time to browse through the site, and it seems like you should have same prior knowledge & experience before cracking on with the game.
+ >As they only explain what technique to use and what vulnerabilites to exploit, and not how & why. It would be good to know the tecniques at hand!
+
+
 
 
  # c) I am already runnin the newest version.
 - sudo apt update && sudo apt upgrade -y. Will do the trick
 
+
+  
+
 # SQLZOO (D)
-### Part 1
+### Starting off light
 Pretty easy, pretty nice. Some basic SQL syntax.
 <img width="367" alt="sqlzoo" src="https://github.com/user-attachments/assets/3f2eebd2-8b00-4a88-9026-0d6ca1fa82fb" />
 
+![Screenshot 2025-02-06 at 18 17 19](https://github.com/user-attachments/assets/43db5e80-8e60-4f14-b9c3-3c31d20a979d)
+
+
+### Diving deeper
+
+After the initial familiarization, it was time to start combing through the material. The first task was to pick countries with a population over 2million and display the names.
+![Screenshot 2025-02-06 at 18 14 48](https://github.com/user-attachments/assets/9186fb35-ee78-4a8c-a3e0-12652a036c46)
+
+
+Next was a bit more technical query. One had to select the same same condition, but this time divide the gpd with the population and show the results. 
+Here we go:
+![Screenshot 2025-02-06 at 18 19 26](https://github.com/user-attachments/assets/7266a2cc-8eab-4874-b0f8-e24dc8085739)
+
+
+*Thoughts*
+>
+> The SQL and databases seems intuitive/easy enough to learn the basics off, which i'm definitively going to do. It is a good knowledge to have.
+>
+> Besides, you can't really dive deeper into the security aspect, if you don't know how databases function. They play a crucial role in our interconnected world.
 
 
 
 
+# PortSwigger (E)
+I made an account into PortSwigger and selected the SQL Injection course/module as my first learn in this environment. 
+After going through the basics, I was navigated to my first lab on this site. 
+
+![Screenshot 2025-02-07 at 11 15 56](https://github.com/user-attachments/assets/9dfa2dbc-5565-4bce-b49e-63066775b8e0)
+
+
+The lab took me to a mock shopping site
+![Screenshot 2025-02-07 at 11 19 22](https://github.com/user-attachments/assets/1d10e566-5500-4943-a64e-ab78e941aae9)
+
+
+I simply pressed on category: gifts. It gave me the following URL
+![Screenshot 2025-02-07 at 11 25 11](https://github.com/user-attachments/assets/fb59a98f-a673-4053-b333-aa131ff356ea)
+
+
+By first typing a simple ', i got en error message of: internal server error. 
+This indicated that the site was vulnerable to SQLinjection, and that I could modify the url to perform my own query.
+
+
+![Screenshot 2025-02-07 at 11 25 36](https://github.com/user-attachments/assets/733a1109-3ca2-4219-b824-ae4289e6cc30)
+
+The Gifts'+OR+1=1-- injection, gives me all the hidden products in all categories, as 1 will always equal 1, so the OR clause is true. 
+The rest of the query is then commented out with the "--".
+
+
+### Confirmation
+![Screenshot 2025-02-07 at 11 23 14](https://github.com/user-attachments/assets/292d3470-cb5f-4429-b30b-8403aef2d61e)
+
+
+
+*Thoughts*
+>
+> I learned alot from just a quick & simple introduction and one small lab.
+> This tells me i would be a fool not diving deeper into PortSwigger. I'm going to stay active on there, and dvelve into more subjects, as i'm expanding my horizons.
+>
+> I especially enjoyed the hands on learning style. You go through some theory, and then get to put the theory into practice.
+>
+> **About the topic:**
+> - SQL injections are very intriguing. How we can perform our own queries and manipulate the database, just by understanding the underlying mechanics.
+> - Also gave me an insight, into how crucial it is not to let unmodified raw user data, interact with the database, and other underlying components for that matter.
+
+
+![Screenshot 2025-02-05 at 21 12 02](https://github.com/user-attachments/assets/ce0f3dfb-a318-48b8-8544-9a5e1adae0bb)
+
+
+### Lesson learned
+
+Always sanitize the input! 
