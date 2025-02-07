@@ -222,3 +222,22 @@ The rest of the query is then commented out with the "--".
 ### Lesson learned
 
 Always sanitize the input! 
+
+
+
+
+
+
+# Bonus (MN)
+
+I did the next lab aswell. The lab took us to the same mock site, and the idea was to log in without a password. 
+By assuming there is still a default admin user in place, we can use that to our advantage. 
+![Screenshot 2025-02-07 at 12 11 44](https://github.com/user-attachments/assets/08b92362-b996-477c-8830-a88bebcfa6a0)
+
+
+By typing in the username field: Administrator'--, and then just typing whatever into the password field (doesn't matter), we can bypass the password. 
+Here is how it works: The apostrophe + --, comments out the rest of the query again, so the SQL query doesn't check for the password, and if the username match, it let's us in. 
+
+![Screenshot 2025-02-07 at 12 13 57](https://github.com/user-attachments/assets/5494cea2-272e-470b-ae59-a29d5f66c039)
+
+Boom goees the dynamite. And we're in!
