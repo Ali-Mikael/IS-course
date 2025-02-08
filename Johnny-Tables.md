@@ -225,10 +225,30 @@ Always sanitize the input!
 
 
 
-
-
-
 # Bonus (MN)
+
+
+### WebGoat (SQL injection)
+
+With my newly learnt knowledge, i was ready to try out some basic SQL.
+I started up my webgoat page as done before, and navigated to the SQL Injection module, there was some basic theory, and a few exercises.
+<img width="1118" alt="Screenshot 2025-02-08 at 14 44 49" src="https://github.com/user-attachments/assets/7d2997e6-41ee-4637-8820-050dc7479431" />
+
+<img width="852" alt="Screenshot 2025-02-08 at 14 48 59" src="https://github.com/user-attachments/assets/3a50c46f-d041-4315-8ddc-a5a176a2ffe5" />
+
+
+
+After being able to aquire some data from the employee table, it was time to modify it. The assigment was to modify an employees department column. 
+<img width="903" alt="Screenshot 2025-02-08 at 14 59 37" src="https://github.com/user-attachments/assets/fe2c4d8c-b4ac-4b91-a5d5-ebc1a7d55329" />
+
+
+Nextup, we wanted to add a columnn of our own, this can be achieved easily by the following command: ALTER TABLE (*insert table*) ADD COLUMN (*insert column name and type*)
+
+<img width="828" alt="Screenshot 2025-02-08 at 15 09 30" src="https://github.com/user-attachments/assets/0f64d16f-5af2-4542-b0d8-3433be74a9dc" />
+
+Now that we knew how the basics of retreiving data and modifying it ( + the schema) goes. Naturally we want to know how to modify access rights. That can be initiated with the command GRANT (pretty intuitive right?). Consecuently, if we wan't to remove a right from someone, intuitively we just start the query with "REVOKE".
+<img width="816" alt="Screenshot 2025-02-08 at 15 13 25" src="https://github.com/user-attachments/assets/5e43330b-5ca9-4324-b149-ae8c350d2c05" />
+
 
 I did the next lab aswell. The lab took us to the same mock site, and the idea was to log in without a password. 
 By assuming there is still a default admin user in place, we can use that to our advantage. 
