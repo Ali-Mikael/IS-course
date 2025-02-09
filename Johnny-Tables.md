@@ -189,7 +189,7 @@ I simply pressed on category: gifts. It gave me the following URL
 ![Screenshot 2025-02-07 at 11 25 11](https://github.com/user-attachments/assets/fb59a98f-a673-4053-b333-aa131ff356ea)
 
 
-By first typing a simple ', i got en error message of: internal server error (forgot to take screenshot, sorry tero don't remove me from the course). 
+By first typing a simple ', i got en error message of: internal server error. 
 This indicated that the site was vulnerable to SQLinjection, and that I could modify the url to perform my own query.
 Which is exactly what i did
 
@@ -230,7 +230,6 @@ Always sanitize the input!
 
 ### WebGoat (SQL injection)
 
-With my newly learnt knowledge, i was ready to try out some basic SQL.
 I started up my webgoat page as done before, and navigated to the SQL Injection module, there was some basic theory, and a few exercises.
 <img width="1118" alt="Screenshot 2025-02-08 at 14 44 49" src="https://github.com/user-attachments/assets/7d2997e6-41ee-4637-8820-050dc7479431" />
 
@@ -246,11 +245,50 @@ Nextup, we wanted to add a columnn of our own, this can be achieved easily by th
 
 <img width="828" alt="Screenshot 2025-02-08 at 15 09 30" src="https://github.com/user-attachments/assets/0f64d16f-5af2-4542-b0d8-3433be74a9dc" />
 
-Now that we knew how the basics of retreiving data and modifying it ( + the schema) goes. Naturally we want to know how to modify access rights. That can be initiated with the command GRANT (pretty intuitive right?). Consecuently, if we wan't to remove a right from someone, intuitively we just start the query with "REVOKE".
+Now that we knew how the basics of retreiving data and modifying it ( + the schema). Naturally we want to know how to modify access rights. That can be initiated with the command GRANT (pretty intuitive right?). Consecuently, if we wan't to remove a right from someone, intuitively we just start the query with "REVOKE".
 <img width="816" alt="Screenshot 2025-02-08 at 15 13 25" src="https://github.com/user-attachments/assets/5e43330b-5ca9-4324-b149-ae8c350d2c05" />
 
 
-I did the next lab aswell. The lab took us to the same mock site, and the idea was to log in without a password. 
+In the next task, we knew the SQL query concatenates string, so by modifying it with lastname' or '1'='1 we can manipulate it
+<img width="855" alt="Screenshot 2025-02-09 at 13 20 22" src="https://github.com/user-attachments/assets/2ab643db-be9d-49fa-a50b-c0762c0f8234" />
+
+
+Here, the query concatenates dynamically the same way as the last one, but this time with numbers. So it is bypassed by simply typing 1 OR 1=1 without the apostrophes, in the latter box.
+<img width="824" alt="Screenshot 2025-02-09 at 13 17 27" src="https://github.com/user-attachments/assets/eebadca4-3572-42e2-a1db-c8abaaf021f2" />
+
+*Compromising the Confidentiality*
+
+By knowing the query which was to be performed, we could simply type in whatevername' OR 1=1 --. This way we get a boolean value that gives us all entries, and comment out the rest of the query.
+<img width="840" alt="Screenshot 2025-02-09 at 13 30 22" src="https://github.com/user-attachments/assets/7fff551f-6cd0-419d-aac9-4911e783fb57" />
+
+
+*Compromising the Integrity*
+
+After we just got the info on how much everyone makes, now we obviously want to change our own salary. 
+
+I used the following command in the name field:
+
+**Smith'; UPDATE employees SET salary = 90000 WHERE auth_tan = '3SL99A'; --** and then just a random value in the next field.
+- The < Smith'; > succesfully check the name against the database, and then end the query so we can start a new one.
+- Now we can modify entries with the UPDATE command, and specifying what we want to modify.
+- The < '3SL99A'; -- > locates our own entry, modifies the salary, ends the command and comments out everything else from being executed after that. 
+<img width="824" alt="Screenshot 2025-02-09 at 13 53 57" src="https://github.com/user-attachments/assets/dcd37d1c-e6c9-400e-b1aa-863ce88251db" />
+
+*Compromising the Availability*
+
+We wanted to delete any traces of our actions, by simply deleting the access log table. This was achieved be the following command.
+
+**somethingrandom' DROP TABLE access_log'; --**
+
+After the apostrophe we sent the signal do delete the table, and then signaled to end the command and comment out any remains of the original query.
+
+<img width="1116" alt="Screenshot 2025-02-09 at 14 20 41" src="https://github.com/user-attachments/assets/49b74d84-2eeb-48c9-a91f-9dcaf669964c" />
+
+And here we have it folks. That was the end to a decent introduction into SQL injections. Pretty fun, pretty nice & pretty informative.
+
+### PortSWigger
+
+I did the next lab relating to SQL injections on PortSwigger aswell. The lab took us to the same mock site as before, and the idea was to log in without a password. 
 By assuming there is still a default admin user in place, we can use that to our advantage. 
 ![Screenshot 2025-02-07 at 12 11 44](https://github.com/user-attachments/assets/08b92362-b996-477c-8830-a88bebcfa6a0)
 
