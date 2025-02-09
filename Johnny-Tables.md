@@ -124,12 +124,12 @@ This was also a huge success!
 > I'm definitively going to use it in the future.
 >
 > I had some time to browse through the site, and it seems like you should have same prior knowledge & experience before cracking on with the game.
- >As they only explain what technique to use and what vulnerabilites to exploit, and not how & why. It would be good to know the tecniques at hand!
+> As they only explain what technique to use and what vulnerabilites to exploit, and not how & why. It would be good to know the tecniques at hand!
 
 
 
 
- # System update (C) 
+# System update (C) 
 - sudo apt update && sudo apt upgrade -y. Will do the trick!
 - Nothing special here.
 
@@ -247,7 +247,7 @@ Now that we knew how the basics of retreiving data and modifying it ( + the sche
 <img width="816" alt="Screenshot 2025-02-08 at 15 13 25" src="https://github.com/user-attachments/assets/5e43330b-5ca9-4324-b149-ae8c350d2c05" />
 
 
-In the next task, we knew the SQL query concatenates string, so by modifying it with lastname' or '1'='1 we can manipulate it
+In the next task, we knew the SQL query concatenates strings, so by modifying it with lastname' or '1'='1 we can manipulate it
 <img width="855" alt="Screenshot 2025-02-09 at 13 20 22" src="https://github.com/user-attachments/assets/2ab643db-be9d-49fa-a50b-c0762c0f8234" />
 
 
@@ -278,7 +278,7 @@ We wanted to delete any traces of our actions, by simply deleting the access log
 
 **somethingrandom' DROP TABLE access_log'; --**
 
-After the apostrophe we sent the signal do delete the table, and then signaled to end the command and comment out any remains of the original query.
+After the apostrophe, we define the actions to be executed, which in this case is deleting the table. After that we end the command and comment out any remains of the original query.
 
 <img width="1116" alt="Screenshot 2025-02-09 at 14 20 41" src="https://github.com/user-attachments/assets/49b74d84-2eeb-48c9-a91f-9dcaf669964c" />
 
@@ -292,7 +292,7 @@ By assuming there is still a default admin user in place, we can use that to our
 
 
 By typing in the username field: Administrator'--, and then just typing whatever into the password field (doesn't matter), we can bypass the password. 
-Here is how it works: The apostrophe + --, comments out the rest of the query again, so the SQL query doesn't check for the password, and if the username match, it let's us in. 
+Here is how it works: The apostrophe and --, comments out the rest of the query again, so the SQL query doesn't check for the password, and if the username match, it let's us in. 
 
 ![Screenshot 2025-02-07 at 12 13 57](https://github.com/user-attachments/assets/5494cea2-272e-470b-ae59-a29d5f66c039)
 
