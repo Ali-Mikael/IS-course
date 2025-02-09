@@ -70,11 +70,9 @@ Take the previous section, turn it into the positive counterparts, and voila'
 
 
 ### A03:21 Injection
-There is one main reason for this to be a major vulnerability. 
+This becomes a major vulnerability when data provided by user is not validated, filtered or sanitized.
 
-And that when data provided by user is not validated, filtered or sanitized.
-
-There so many ways things that can go wrong from this inital point. 
+There's so many ways things that can go wrong from this inital point. 
 
 Prevent against injections by cleaning up and checking user input, and adding query controls.
 
