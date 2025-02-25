@@ -1,2 +1,2 @@
 # IS-course
-Homework for course led by Tero Karvinen
+Homework for Information Security course led by Tero Karvinen
