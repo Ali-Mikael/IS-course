@@ -11,7 +11,7 @@
   
 **Chapter 2.4 / One way-hash function**
 - The mechanics of a one-way hash function is pretty straight forward
-  - Take a variable size string = **pre-image** --> run it through the mathematical function --> out comes a fixed-length string of various letters, characters and nuumbers = **hash value**
+  - Take a variable size string = **pre-image** --> run it through the mathematical function --> out comes a fixed-length string of various letters, characters and numbers = **hash value**
 - The key thing here, is that it's easy to calculate the hash value from the pre-image,
 but it's unreasonable, or extremeley challenging at best, to get a pre-image to match a certain hash value.
 - A good one-way hash function is also collision free: meaning it's extremely challenging to produce 2 pre-images with the same hash value.
@@ -26,11 +26,11 @@ but it's unreasonable, or extremeley challenging at best, to get a pre-image to 
 - --> I fired up the kaliVM
 - --> Updated the system
 - --> Downloaded the required packages (wget, hashid & hashcat), but as it turns out, i already had them installed, which the system kindly let me know.
-- I started off by using wget to download a file from github with over 14 million passwords.
+- I started off by using *wget* to download a file from github with over 14 million passwords.
   - <img width="1100" alt="Screenshot 2025-03-01 at 14 10 44" src="https://github.com/user-attachments/assets/82260fa7-7984-422e-a9e9-db98aa940230" />
   - <img width="467" alt="Screenshot 2025-03-01 at 14 11 05" src="https://github.com/user-attachments/assets/98a1cde9-b9ff-4fbc-8a52-210650e8d855" />
 - This is a good place to start hash comparing.
-- The file was obviously compressed, so i decompressed, and out came a file: *rockyou.txt*
+- The file was obviously compressed, so i decompressed with the command **$ tar xf rockyou.txt.tar.gz**, and out came a file: *rockyou.txt*
 - I then used the *hashid* tool to figure out the type of the hash we were up against. It gave me many answers, but I went with the md5 as it was the most commong out of the other top 2.
   - <img width="638" alt="Screenshot 2025-03-01 at 14 23 57" src="https://github.com/user-attachments/assets/4191891f-6595-4966-b614-59a642c08640" />
 - Now we had something to work with, so I went ahead and used the following command with the *hashcat* tool, in order to crack the hash.
