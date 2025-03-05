@@ -34,7 +34,7 @@ but it's unreasonable, or extremeley challenging at best, to get a pre-image to 
 - I then used the *hashid* tool to figure out the type of the hash we were up against. It gave me many answers, but I went with the md5 as it was the most commong out of the other top 2.
   - <img width="638" alt="Screenshot 2025-03-01 at 14 23 57" src="https://github.com/user-attachments/assets/4191891f-6595-4966-b614-59a642c08640" />
 - Now we had something to work with, so I went ahead and used the following command with the *hashcat* tool, in order to crack the hash.
-- **$hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved.txt** (explanation for this command will be discussed later)
+- `$hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved.txt` (explanation for this command will be discussed later)
 - Below was the output we derived.
   - <img width="980" alt="Screenshot 2025-03-01 at 14 32 52" src="https://github.com/user-attachments/assets/fc4428cd-7321-4401-9b9c-e56d41ec644c" />
 - The hashcat tool goes through the provided password-list, hashesh the passwords, and compares them to our hash, in case of a match, the program stops and returns the value to our solved file. 
@@ -52,10 +52,10 @@ but it's unreasonable, or extremeley challenging at best, to get a pre-image to 
   - <img width="1028" alt="Screenshot 2025-03-01 at 15 04 22" src="https://github.com/user-attachments/assets/3d7f0f54-78a5-4c5a-af23-e1b01147c5e6" />
 - And get to cracking!
 - The command works in the following way:
-  - The '-m 0' specifies the mode, with 0 = md5 here.
+  - The `-m 0` specifies the mode, with 0 = md5 here.
   - Then we simply specify the hash we wan't to 'crack' (we are actually just hashing words from the provided dictionary and doing a simple comparison operation)
   - The rockyou.txt is simply the file we use for comparison.
-  - And lastly the '-o solved.txt' just tells the program where to store a possible answer. with -o indicating output and the latter being the text file where to store it. 
+  - And lastly the `-o solved.txt` just tells the program where to store a possible answer. with -o indicating output and the latter being the text file where to store it. 
 
 
 
