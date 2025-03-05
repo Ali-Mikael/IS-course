@@ -130,7 +130,7 @@ This was also a huge success!
 
 
 # System update (C) 
-- '$ sudo apt update && sudo apt upgrade -y' . Will do the trick!
+- '''$ sudo apt update && sudo apt upgrade -y''' . Will do the trick!
 - Nothing special here.
 
 
