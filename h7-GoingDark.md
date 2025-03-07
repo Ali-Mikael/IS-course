@@ -38,20 +38,29 @@
 
 **Tracking Criminals Using Tor**
 - "*The most common goal of any Internet-related investigation is obtaining the true IP address*".
-- The strong anonymity and security that comes with Tor, makes it an extremely difficult, time consuming & resource intensive task tracking down criminals.
-- The biggest weakness in the browser, is: the user.
+- The strong anonymity and security that comes with Tor, makes it an extremely difficult, time consuming and resource intensive task tracking down criminals.
+- The biggest weakness in the browser is: *the user.*
 - Most investigations rely solely on the user making a mistake, and thus giving away his true IP-address.
+- 2 quick examples:
+  - A misconfigured browser/allowed plugins, could result in opening up a link which would have the permission to execute code, which in turn could lead exposing your true IP-address.
+  - Using the Tor browser in a company/school network. Even though the IT-admin wouldn't see the contents of the communication, he could she that there was in fact Tor related internet activity. This commbined with some fraudulent/criminal activity performed in a certain time-frame (matching the Tor activity in the network), could lead to a suspect initially being caught, and later broken under questioning. 
+- But the point stands. It's not reasonable to start cracking the Tor browser, rather you rely on it's users making mistakes, in order to catch the criminals.
 
 
-
-
-
-
+<br> <br> <br>
 
 
 
 
 # Installing the dark browser (A)
+> <https://terokarvinen.com/information-security/> <br>
+
+- Started off my firing up the ol reliable kaliVM, and locating the Tor browser download page. 
+- <img width="1116" alt="Screenshot 2025-03-07 at 15 43 43" src="https://github.com/user-attachments/assets/0a85dd39-6050-445b-9f33-4c0651339618" />
+
+`tar -xf tor-browser`
+
+
 
 
 # Browsing in the dark
