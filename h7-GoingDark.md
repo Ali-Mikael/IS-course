@@ -37,7 +37,11 @@
 - Out of the whole path, the exit relays knows only the previous relay. The route being chosen at random, and changed every ~10 minutes, making it almost impossible to track. <br>
 
 **Tracking Criminals Using Tor**
-- 
+- "*The most common goal of any Internet-related investigation is obtaining the true IP address*".
+- The strong anonymity and security that comes with Tor, makes it an extremely difficult, time consuming & resource intensive task tracking down criminals.
+- The biggest weakness in the browser, is: the user.
+- Most investigations rely solely on the user making a mistake, and thus giving away his true IP-address.
+
 
 
 
