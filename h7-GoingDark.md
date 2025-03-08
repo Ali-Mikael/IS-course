@@ -53,14 +53,62 @@
 
 
 # Installing the dark browser (A)
+> Reference <br>
 > <https://terokarvinen.com/information-security/> <br>
 
-- Started off my firing up the ol reliable kaliVM, and locating the Tor browser download page. 
-- <img width="1116" alt="Screenshot 2025-03-07 at 15 43 43" src="https://github.com/user-attachments/assets/0a85dd39-6050-445b-9f33-4c0651339618" />
+I navigated to the Torproject website <https://www.torproject.org/download/>, and downloaded the Tor browser.
+- <img width="433" alt="Screenshot 2025-03-07 at 16 18 02" src="https://github.com/user-attachments/assets/dd142d70-46d3-4a77-a65d-0e17b106a454" /> <br>
 
-`tar -xf tor-browser`
+After the installation was complete, I opened up the browser and established a secure connection.
+- <img width="1387" alt="Screenshot 2025-03-07 at 16 19 05" src="https://github.com/user-attachments/assets/a695beef-68ba-496a-91ff-0ad271ce6c58" /> <br>
 
+I then opened up DuckDuckGo .onion version, and was ready to start exploring! 
+- <img width="1393" alt="Screenshot 2025-03-07 at 16 35 55" src="https://github.com/user-attachments/assets/d9f47f81-5b6e-4ee5-94e5-bedc103129f6" /> <br>
 
+Some info on .onion, straight from the onion. 
+- <img width="1349" alt="Screenshot 2025-03-07 at 16 26 16" src="https://github.com/user-attachments/assets/3f64bd0d-19e0-4559-99ef-7c3df06ef6ec" />
 
+<br> <br> 
 
 # Browsing in the dark
+I managed to find an off brand hidden Wiki site, with some useful .onion links. 
+- <img width="815" alt="Screenshot 2025-03-07 at 16 39 38" src="https://github.com/user-attachments/assets/513ae307-5386-468c-ba76-3200b3e42858" />
+-<img width="558" alt="Screenshot 2025-03-07 at 16 39 51" src="https://github.com/user-attachments/assets/48572214-1793-4640-b040-f26d4fe85e12" />
+
+- <br>
+I navigated to the first link i saw, it was a chat forum called **Dread.**
+- <img width="1129" alt="Screenshot 2025-03-07 at 16 40 54" src="https://github.com/user-attachments/assets/b0591ed6-8198-45fb-8fe4-afb330439547" />
+- There was some pretty hefty stuff on the forum i'm not going to lie. First off the basics like drugs, weapons & violence. Ofcourse there were alot of people trying to scam as well. And then how to smuggle drugs and dispose of bodies, you know the usual stuff. For my own safety I won't be posting any more screenshots on here, just take my word for it! This site is public and it for sure ain't anonymous.
+<br>
+
+And then naturally, straight under the illegal stuff, you would have a section for reading about it from news outlets and reporting it anonymously to the authorities. 😂
+- <img width="523" alt="Screenshot 2025-03-07 at 16 47 33" src="https://github.com/user-attachments/assets/52205270-ac41-43f2-b43e-c5a935a3f71c" />
+- Here you could find the official .onion site for the CIA.
+- <img width="1395" alt="Screenshot 2025-03-08 at 15 00 51" src="https://github.com/user-attachments/assets/5e4f0dcd-5a2a-432c-8d35-7527c3d1f3c5" />
+
+<br>
+
+
+The site got my interest. So I did some digging, until I found the orginial Hidden-Wiki page (atleast so I  think). 
+- <img width="1393" alt="Screenshot 2025-03-07 at 16 51 06" src="https://github.com/user-attachments/assets/37ae2a33-7660-464c-a818-b41fa27095ee" />
+- I browsed some links, seemed very interesting. The ones that caught my curiosity the most were the hacking related stuff, were people shared stories and abililites.
+- Also found this amusing, hackerforsale situtation going on.
+  - <img width="981" alt="Screenshot 2025-03-08 at 14 55 05" src="https://github.com/user-attachments/assets/9b1622d2-6b53-47bf-a761-ed57fa68d903" />
+- After browsing a while, I finally decided to join a live chat room to see how it looks like.
+- <img width="1396" alt="Screenshot 2025-03-07 at 16 52 15" src="https://github.com/user-attachments/assets/470bf56b-a5e3-4424-9be9-a62bacc2ff80" />
+- <img width="509" alt="Screenshot 2025-03-07 at 16 52 47" src="https://github.com/user-attachments/assets/18a12028-6d85-43ac-96e6-00ecee5b30e1" />
+- <img width="1396" alt="Screenshot 2025-03-07 at 16 59 56" src="https://github.com/user-attachments/assets/375f4629-4fd8-454b-a701-9452997e9caf" />
+- I didn't really interact there, as I was just lurking in the shadows and following along. People were talking about guns, drugs & violence, you know the usual stuff. But then there was some banter here and there, some people trying to scam other, some trying to discuss crypto, some trying to sell pornography and suddenly it took a left turn and people started talking about their views on religion... Wild stuff! 😂
+<br>
+The onion web is a wild place, where everything goes. It can be a wonderfull tool, or a means to do evil stuff. <br>
+**You decide!** *Thread lightly, proceed at your own caution!*
+
+
+
+
+
+
+
+
+
+
