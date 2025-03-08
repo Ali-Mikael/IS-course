@@ -99,7 +99,7 @@ And then naturally, straight under the illegal stuff, you would have a section f
 
 I did some digging, until I found the orginial Hidden-Wiki page (atleast so I  think). 
 - <img width="1393" alt="Screenshot 2025-03-07 at 16 51 06" src="https://github.com/user-attachments/assets/37ae2a33-7660-464c-a818-b41fa27095ee" />
-- I browsed some links, seemed very interesting. The ones that caught my curiosity the most were the hacking related stuff, were people shared stories, knowledge and abilities amongst each other. 
+- I browsed some links, seemed very interesting. The ones that caught my curiosity the most were the hacking related stuff, where people shared stories, knowledge and abilities amongst each other. 
 - Also found this amusing **hackerforsale!** situtation going on.
   - <img width="981" alt="Screenshot 2025-03-08 at 14 55 05" src="https://github.com/user-attachments/assets/9b1622d2-6b53-47bf-a761-ed57fa68d903" />
 - After browsing a while, I finally decided to join a live chat room to see how it looks like.
@@ -110,8 +110,7 @@ I did some digging, until I found the orginial Hidden-Wiki page (atleast so I  t
 <br>
 The onion web is a wild place, where everything goes. It can be a wonderfull tool, or a means to do evil. <br>
 #### You decide!
-  *Thread lightly,*
-     *proceed at your own caution!*
+  *Thread lightly, proceed at your own caution!*
 
 
 
